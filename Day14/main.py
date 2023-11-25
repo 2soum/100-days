@@ -21,6 +21,7 @@ while winner :
         if input("Who has more followers? Type 'A' or 'B': ") == 'A':
             score += 1
             goodanswer = first
+
             print(f"You're right! Current score: {score}")
         else:
             print(f"Sorry, that's wrong. Final score: {score}")
